@@ -56,7 +56,7 @@ class Scanner(OfficeEquipment):
 class Xerox(OfficeEquipment):
     def __init__(self, name, quantity, price, purchase_date, durability_in_years, brand, copies_num_per_cycle):
         super().__init__(name, quantity, price, purchase_date, durability_in_years, brand)
-        self.copies_num_cycle = copies_num_per_cycle
+        self.copies_num_per_cycle = copies_num_per_cycle
 
 
 printer_1 = Printer('printer', 30, 50000, '24/10/2020', 5, 'HP')
